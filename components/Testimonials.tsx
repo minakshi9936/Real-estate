@@ -108,7 +108,7 @@ export default function Testimonials() {
                 </div>
 
                 <p className="text-lg text-gray-700 italic">
-                  "{testimonials[currentIndex].content}"
+                  &quot;{testimonials[currentIndex].content}&quot;
                 </p>
               </motion.div>
             </AnimatePresence>
