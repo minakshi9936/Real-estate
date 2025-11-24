@@ -29,7 +29,7 @@ export default function Navbar() {
     <motion.nav
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-black backdrop-blur-md shadow-lg'
+          ? 'bg-black/60 backdrop-blur-md shadow-lg'
           : 'bg-transparent'
       }`}
       initial={{ y: -100 }}
